@@ -1,0 +1,12 @@
+python -m venv power_env
+
+# Activate the environment:
+# On Windows:
+power_env\Scripts\activate
+# On macOS/Linux:
+source power_env/bin/activate
+
+Then install the required packages:
+pip install numpy pandas matplotlib seaborn scipy scikit-learn xgboost lightgbm PyWavelets
+
+python power_quality_analysis.py
